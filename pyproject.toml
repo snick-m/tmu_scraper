@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tmu_scraper"
+version = "0.1.0"
+description = "This web scraper application scrapes the course website pages of Toronto Metropolitan University and generates a .json file with the course plan details."
+authors = ["Mushfiqur Rahman <realmrahman.19@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
