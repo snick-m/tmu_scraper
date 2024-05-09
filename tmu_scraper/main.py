@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, ResultSet, Tag
 from requests import get
 import json
 
@@ -7,12 +7,12 @@ def get_soup(html):
 
 
 # Function to extract course data
-def extract_courses(soup, semester_id):
+def extract_courses(soup: BeautifulSoup, semester_id):
     semester_data = []
     # Find the container for the semester
     semester = soup.find(id=semester_id)
     if semester:
-        courses = semester.find_all("li")
+        courses: ResultSet[Tag] = semester.find_all("li")
         for course in courses:
             course_info = course.find("a")
             if course_info:
@@ -20,7 +20,7 @@ def extract_courses(soup, semester_id):
                     "course_code": course_info.text.strip(),
                     "course_link": course_info.get("href", ""),
                     "course_name": (
-                        course_info.next_sibling if course_info.next_sibling else ""
+                        course_info.next_sibling.text.strip() if course_info.next_sibling else ""
                     ),
                 }
                 semester_data.append(course_data)

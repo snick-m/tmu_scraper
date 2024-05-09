@@ -3,39 +3,39 @@
         {
             "course_code": "CPS 109",
             "course_link": "/content/ryerson/calendar/2024-2025/courses/computer-science/CPS/109.html",
-            "course_name": " Computer Science I"
+            "course_name": "Computer Science I"
         },
         {
             "course_code": "CPS 213",
             "course_link": "/content/ryerson/calendar/2024-2025/courses/computer-science/CPS/213.html",
-            "course_name": " Computer Organization I"
+            "course_name": "Computer Organization I"
         },
         {
             "course_code": "MTH 110",
             "course_link": "/content/ryerson/calendar/2024-2025/courses/mathematics/MTH/110.html",
-            "course_name": " Discrete Mathematics I"
+            "course_name": "Discrete Mathematics I"
         }
     ],
     "2nd Semester": [
         {
             "course_code": "CPS 209",
             "course_link": "/content/ryerson/calendar/2024-2025/courses/computer-science/CPS/209.html",
-            "course_name": " Computer Science II"
+            "course_name": "Computer Science II"
         },
         {
             "course_code": "CPS 310",
             "course_link": "/content/ryerson/calendar/2024-2025/courses/computer-science/CPS/310.html",
-            "course_name": " Computer Organization II"
+            "course_name": "Computer Organization II"
         },
         {
             "course_code": "CPS 412",
             "course_link": "/content/ryerson/calendar/2024-2025/courses/computer-science/CPS/412.html",
-            "course_name": " Social Issues, Ethics and Professionalism"
+            "course_name": "Social Issues, Ethics and Professionalism"
         },
         {
             "course_code": "MTH 207",
             "course_link": "/content/ryerson/calendar/2024-2025/courses/mathematics/MTH/207.html",
-            "course_name": " Calculus and Computational Methods I"
+            "course_name": "Calculus and Computational Methods I"
         }
     ]
 }
