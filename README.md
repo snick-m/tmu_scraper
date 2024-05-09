@@ -13,7 +13,7 @@ poetry install
 ## Usage
 
 ```sh
-poetry python main.py
+poetry run python main.py
 ```
 
 ## Dependencies
